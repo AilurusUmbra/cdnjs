@@ -11,6 +11,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mbostock/protovis"
+    "url": "https://mbostock.github.io/protovis/"
+  },
+  "license": "BSD-2-Clause",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/mbostock/protovis.git",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.+(min.js)"
+        ]
+      }
+    ]
   }
 }
